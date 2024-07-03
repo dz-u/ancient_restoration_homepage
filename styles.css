@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.viewer {
+    display: flex;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image1, #image2 {
+    max-width: 50%;
+    max-height: 80vh;  /* ビューポート高さの80%に制限 */
+    margin: 0 10px;
+    object-fit: contain;  /* 画像の縦横比を維持 */
+}
+
+button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.page-info {
+    margin-top: 10px;
+}
