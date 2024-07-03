@@ -8,15 +8,17 @@
 </head>
 <body>
     <div class="viewer">
-        <button id="prev-btn" onclick="prevPage()">&#9664; Prev</button>
+        
         <div class="images">
             <img id="image1" src="./turezuregusa/200009896_00004_1.jpg" alt="Original Page">
             <img id="image2" src="./turezuregusa_res_gamma0.8/200009896_00004_1.png" alt="Restoration Page">
         </div>
-        <button id="next-btn" onclick="nextPage()">Next &#9654;</button>
+        
     </div>
     <div class="page-info">
+        <button id="prev-btn" onclick="prevPage()">&#9664; Prev</button>
         Page <span id="page-number">1</span> of <span id="total-pages">312</span>
+        <button id="next-btn" onclick="nextPage()">Next &#9654;</button>
     </div>
     <script src="script.js"></script>
 </body>
